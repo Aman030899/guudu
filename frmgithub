@@ -1,0 +1,9 @@
+ssh key for a node will be same for all the repository push from that specific node.
+
+
+58  cd /root/.ssh
+   59  ls -la
+   60  ssh-keygen
+   61  ls -la
+   62  cat id_rsa.pub
+copy ssh key and paste in github.
